@@ -17,3 +17,41 @@ Quality is expecting a robust and reliable system.
 - Use a UI library of your choice
 - Task should be completed in 2 hours or less
 - Use this repository as a template for your app
+
+# Getting Started with Cat classifier
+
+After loading any yarn modules `yarn`
+In the project directory, you can run:
+
+### `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I have included a few small tests, but the mock app does not have a high level of test coverage.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+
+
+## Mock data
+
+The app uses mock REST API and will return one of two cats images or one of two dog images. Please note the HTML form element will only allow selection of JPEG file type. The cat images will be shown with a success message and the dog images with a fail message.
+
+## Extending the app
+
+If the high-value customer commissioned this prototype I'd change the implementation to suit the more in-depth requirements.
+e.g. centralise text strings for easy maintenance and to future proof if translations are needed.
